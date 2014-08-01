@@ -1,0 +1,64 @@
+#mCard-modal-content {display:none;}
+#memberCard-overlay {background-color:#fff;}
+
+#memberCard-container {
+		min-height:122px;
+		width:400px;
+		color:#999;
+		background: url(../images/bgw.png) no-repeat center center;
+		padding: 30px;
+		}
+#memberCard-container a.memberCard-close {
+		background:url(../images/x.png) no-repeat;
+		width: 36px;
+		height: 36px;
+		display: inline;
+		z-index: 3200;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		cursor: pointer;
+		}
+
+#memberCard-container .simplemodal-wrap {height: 124px !important;}
+.memberCard .avatar {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #aaa;
+	box-shadow: 0 0 10px #bbb inset, 1px 1px 0px #fefefe;
+	-moz-box-shadow: 0 0 10px #bbb inset, 1px 1px 0px #fefefe;
+	-webkit-box-shadow: 0 0 10px #bbb inset, 1px 1px 0px #fefefe;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #eee;
+	float: left;
+	overflow: hidden;
+}
+
+.memberCard .avatari {
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 120px;
+	height: 120px;
+	display:block;
+}
+.memberCard a {color: #449fcf;}
+.memberCard a:hover {text-decoration: underline;}
+.memberCard .userInfo {
+	float: right;
+	width:268px;
+}
+.memberCard h3 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.memberCard .username {text-transform:capitalize;}
+.memberCard .userlinks {margin-top: 6px;}
+.memberCard .lastseen, .memberCard .messages {
+	margin-top: 4px;
+	padding-top: 2px;
+	background: url(../images/hr.png) repeat-x top left;
+	line-height: 16px;
+}
+.memberCard .data {color: #666;}

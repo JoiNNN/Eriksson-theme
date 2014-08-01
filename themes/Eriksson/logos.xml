@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Logos>
+<logo id="1">
+		<image>phpf.png</image>
+		<link>http://www.php-fusion.co.uk/news.php</link>
+		<title>Link Title 1</title>
+		<target>1</target>
+	</logo>
+	<logo id="2">
+		<image>phpf.png</image>
+		<link>http://www.php-fusion.co.uk/news.php</link>
+		<title>Link Title 2</title>
+		<target>0</target>
+	</logo>
+	<logo id="3">
+		<image>phpf.png</image>
+		<link>http://www.php-fusion.co.uk/news.php</link>
+		<title>Link Title 3</title>
+		<target>1</target>
+	</logo>
+	<logo id="4">
+		<image>phpf.png</image>
+		<link>http://www.php-fusion.co.uk/news.php</link>
+		<title>Link Title 4</title>
+		<target>0</target>
+	</logo>
+	<logo id="5">
+		<image>phpf.png</image>
+		<link>http://www.php-fusion.co.uk/news.php</link>
+		<title>Link Title 5</title>
+		<target>1</target>
+	</logo>
+	<logo id="6">
+		<image>phpf.png</image>
+		<link>http://www.php-fusion.co.uk/news.php</link>
+		<title>Link Title 6</title>
+		<target>0</target>
+	</logo>
+</Logos>

@@ -1,0 +1,63 @@
+/* tabs styling */
+ul.tabs { 
+	list-style:none; 
+	margin:0; 
+	padding:0;	
+	border-bottom:1px solid #1D83B9;	
+	height:30px;
+}
+ul.tabs li { 
+	float:left;	 
+	margin: 0 6px 0 0; 
+}
+ul.tabs a { 
+	background: #a0cce4 url(../images/tab.png) repeat-x top left;
+	border: 1px solid #71b4d8;
+	-khtml-border-right-radius: 6px;
+	-khtml-border-left-radius: 6px;
+	-webkit-border-right-radius: 6px;
+	-webkit-border-left-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	font-size:12px;
+	font-weight: bold;
+	display:block;
+	height: 25px; 
+	line-height:30px;
+	width: 120px;
+	text-align:center;
+	text-decoration:none;
+	color:#629cbb;
+	padding: 0 2px;
+	margin:3px 0 0;	
+	position:relative;
+	top:1px;
+}
+ul.tabs a:hover {
+	background-color: #a6d3ec;	
+	color:#4682a3;
+	margin:0;
+	height: 28px;
+}
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background-color: #1D83B9;		
+	cursor:default; 
+	color:#fff;
+	border: 1px solid #1D83B9;
+	height: 28px; 
+	margin: 0;
+}
+
+/* general styling */
+.tab_content .editing {
+	background-color: #b8daed;
+	border-color: #cfe5f2;
+}
+.tab_content .show {display: block;}
+.tab_content .hide {display: none;}
+.tab_content .desc {padding-left: 100px;}
+.tab_content .inputs {padding-right: 100px;}
+
+select.select {
+	width: 120px;
+}
